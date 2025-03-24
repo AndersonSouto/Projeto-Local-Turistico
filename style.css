@@ -1,0 +1,9 @@
+img {
+    border-radius: 28px;
+}
+
+#page {
+    width: 1120px;
+    box-sizing: border-box;
+    margin: 88px auto;
+}
