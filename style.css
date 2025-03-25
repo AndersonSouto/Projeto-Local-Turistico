@@ -5,22 +5,11 @@
 
 :root {
     font-family: "Open Sans", sans-serif;
+    color:#333;
 }
 
 body{
     background-color: #F5F4F0;
-}
-
-h1, h3 {
-    color:#1B1B1B;
-}
-
-p {
-    color:#1B1B1B
-}
-
-img {
-    border-radius: 28px;
 }
 
 #page {
@@ -30,17 +19,40 @@ img {
 }
 
 .headline {
+    font-weight: 700;
     color: #E1624F;
 }
 
+h1 {
+    font-size: 36px;
+}
 
 figure {
     margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-
-figcaption {
-    margin-top: 24px;
+    margin-inline-end: 0px; 
+    font-style: italic;
     text-align: center;
 }
+
+
+img {
+    border-radius: 28px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h1, h2, h3 {
+    color:#1B1B1B;
+}
+
+
+footer {
+    text-align: center;
+}
+
